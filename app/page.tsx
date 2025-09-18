@@ -29,6 +29,9 @@ export default function Home() {
           <li>
             Changes from branch <code>app/</code>
           </li>
+        <li>
+            Changes to deploy <code>app/</code>
+          </li>
         </ol>
 
 
