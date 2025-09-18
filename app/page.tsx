@@ -26,7 +26,11 @@ export default function Home() {
           <li>
             New changes in <code>app/</code>
           </li>
+          <li>
+            Changes from branch <code>app/</code>
+          </li>
         </ol>
+
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
