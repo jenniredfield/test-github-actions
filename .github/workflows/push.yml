@@ -44,7 +44,11 @@ jobs:
       - name: Build files
         run: npm run build
 
+      - name: Check folder
+        run: ls
+
       - name: Upload artifact
+        if: ${{ success() }}  
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
